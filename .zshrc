@@ -1,12 +1,15 @@
-export ZSH="$HOME/.oh-my-zsh"
+# Instalar siempre el plugin zsh-autosuggestions
 
-ZSH_THEME="robbyrussell"
+export ZSH="$HOME/.oh-my-zsh"
 
 plugins=(
     git
     # Customs plugins
     zsh-autosuggestions
 )
+
+ZSH_THEME="robbyrussell"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#888888'
 
 source $ZSH/oh-my-zsh.sh
 
