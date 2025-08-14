@@ -21,7 +21,6 @@ else
 fi
 
 # Env
+DOT_NET=/usr/lib64/dotnet
 
-
-PATH=$PATH
-# PATH=$HOMEBREW:$NODE:$PATH
+PATH=$DOT_NET:$PATH
